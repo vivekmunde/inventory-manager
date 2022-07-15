@@ -17,6 +17,7 @@ const RouterDrawer: React.FC<{
     push: false,
     destroyOnClose: true,
     width: 'auto',
+    keyboard: false,
     onClose: () => {
       setVisible(false);
     },
