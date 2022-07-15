@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/inventory-manager/static/css/main.fef394d6.css",
-    "main.js": "/inventory-manager/static/js/main.7f03140b.js",
+    "main.js": "/inventory-manager/static/js/main.9bd6eea6.js",
     "static/css/137.9a8e255e.chunk.css": "/inventory-manager/static/css/137.9a8e255e.chunk.css",
     "static/js/137.9e839dde.chunk.js": "/inventory-manager/static/js/137.9e839dde.chunk.js",
     "static/css/679.9a8e255e.chunk.css": "/inventory-manager/static/css/679.9a8e255e.chunk.css",
@@ -20,7 +20,7 @@
     "static/js/426.8622e4aa.chunk.js": "/inventory-manager/static/js/426.8622e4aa.chunk.js",
     "index.html": "/inventory-manager/index.html",
     "main.fef394d6.css.map": "/inventory-manager/static/css/main.fef394d6.css.map",
-    "main.7f03140b.js.map": "/inventory-manager/static/js/main.7f03140b.js.map",
+    "main.9bd6eea6.js.map": "/inventory-manager/static/js/main.9bd6eea6.js.map",
     "137.9a8e255e.chunk.css.map": "/inventory-manager/static/css/137.9a8e255e.chunk.css.map",
     "137.9e839dde.chunk.js.map": "/inventory-manager/static/js/137.9e839dde.chunk.js.map",
     "679.9a8e255e.chunk.css.map": "/inventory-manager/static/css/679.9a8e255e.chunk.css.map",
@@ -40,6 +40,6 @@
   },
   "entrypoints": [
     "static/css/main.fef394d6.css",
-    "static/js/main.7f03140b.js"
+    "static/js/main.9bd6eea6.js"
   ]
 }
