@@ -24,6 +24,7 @@ const InventoryItemList: React.FC = () => {
                 key={inventoryItem.id}
                 category={category}
                 inventoryItem={inventoryItem}
+                showCategory
               />
             );
           }
