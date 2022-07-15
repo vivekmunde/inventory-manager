@@ -3,6 +3,7 @@ import moment from 'moment';
 import React from 'react';
 
 import { TCategory, TInventoryItem } from '../../types';
+import DeleteInventoryButton from './delete-inventory-item-button';
 import EditInventoryItemButton from './edit-inventory-item-button';
 
 const InventoryItemCard: React.FC<{
@@ -58,7 +59,7 @@ const InventoryItemCard: React.FC<{
     </Descriptions>
     <Space className="mt-1" direction="horizontal" size="small">
       <EditInventoryItemButton inventoryItemId={inventoryItem.id} />
-      {/* <DeleteInventoryItemButton categoryId={category.id} /> */}
+      <DeleteInventoryButton inventoryItemId={inventoryItem.id} />
     </Space>
   </Card>
 );
