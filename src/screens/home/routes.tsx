@@ -12,17 +12,17 @@ const HomeRoutes: React.ComponentType = () => (
   <ErrorBoundary>
     <React.Suspense fallback={<AppOverlaySpinner />}>
       <Switch>
-        <Route path="/inventory/:categoryId">
+        <Route path={`${process.env.REACT_APP_BASE_PATH}inventory/:categoryId`}>
           <InventoryByCategory />
         </Route>
-        <Route path="/categories">
+        <Route path={`${process.env.REACT_APP_BASE_PATH}categories`}>
           <Categories />
         </Route>
-        <Route path="/home">
+        <Route path={`${process.env.REACT_APP_BASE_PATH}home`}>
           <Inventory />
         </Route>
-        <Redirect exact from="/" to="/home" />
-        <Redirect path="*" to="/home" />
+        <Redirect exact from={`${process.env.REACT_APP_BASE_PATH}`} to={`${process.env.REACT_APP_BASE_PATH}home`} />
+        <Redirect path="*" to={`${process.env.REACT_APP_BASE_PATH}home`} />
       </Switch>
     </React.Suspense>
   </ErrorBoundary>

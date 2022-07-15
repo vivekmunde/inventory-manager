@@ -19,17 +19,24 @@ const Navigation: React.FC = () => {
         <div className="pb-3 grey-6 uppercase">
           Inventory
         </div>
-        <Link to="/home" className={linkClassName('/home')}>
+        <Link to="/home" className={linkClassName(`${process.env.REACT_APP_BASE_PATH}home`)}>
           All
         </Link>
         {categories.map((category) => (
-          <Link key={category.id} to={`/inventory/${category.id}`} className={linkClassName(`/inventory/${category.id}`)}>
+          <Link
+            key={category.id}
+            to={`${process.env.REACT_APP_BASE_PATH}inventory/${category.id}`}
+            className={linkClassName(`${process.env.REACT_APP_BASE_PATH}inventory/${category.id}`)}
+          >
             {category.title}
           </Link>
         ))}
       </div>
       <div className="mt-4 pt-2 pb-2 pl-4 pr-4 flex flex-col bg-grey-1 border-radius">
-        <Link to="/categories" className={linkClassName('/categories')}>
+        <Link
+          to={`${process.env.REACT_APP_BASE_PATH}categories`}
+          className={linkClassName(`${process.env.REACT_APP_BASE_PATH}categories`)}
+        >
           Categories
         </Link>
       </div>
