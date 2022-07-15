@@ -19,8 +19,10 @@ const AddCategory: React.FC<{ goBackUrl: string }> = ({ goBackUrl }) => {
     <RouterDrawer goBackUrl={goBackUrl}>
       {(drawerProps, onToggle) => {
         const onSubmit = () => {
-          dispatchAddCategory(convertCategoryFormInputToCategoryInput(formValues));
-          onToggle(false);
+          if (formValues.title && !formValues.fields.find((it) => (it.title ?? '').length === 0)) {
+            dispatchAddCategory(convertCategoryFormInputToCategoryInput(formValues));
+            onToggle(false);
+          }
         };
 
         return (

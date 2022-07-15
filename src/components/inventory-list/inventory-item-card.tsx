@@ -9,22 +9,26 @@ import EditInventoryItemButton from './edit-inventory-item-button';
 const InventoryItemCard: React.FC<{
   category: TCategory;
   inventoryItem: TInventoryItem;
-}> = ({ category, inventoryItem }) => (
+  showCategory?: boolean;
+}> = ({ category, inventoryItem, showCategory }) => (
   <Card size="small" className="mb-4 box-shadow">
     <Descriptions
       layout="vertical"
       size="small"
       colon={false}
+      column={{ xl: 3, lg: 3, md: 2, sm: 1, xs: 1 }}
     >
-      <Descriptions.Item
-        label={(
-          <Typography.Text type="secondary">
-            Category
-          </Typography.Text>
-        )}
-      >
-        {category.title}
-      </Descriptions.Item>
+      {showCategory && (
+        <Descriptions.Item
+          label={(
+            <Typography.Text type="secondary">
+              Category
+            </Typography.Text>
+          )}
+        >
+          {category.title}
+        </Descriptions.Item>
+      )}
       {category.fields.map((categoryField) => {
         const data = inventoryItem.data.find((itemData) => itemData.categoryFieldId === categoryField.id);
 
@@ -51,8 +55,9 @@ const InventoryItemCard: React.FC<{
                 {categoryField.title}
               </Typography.Text>
             )}
+            span={categoryField.type === 'LongText' ? 2 : 1}
           >
-            {value}
+            {(value ?? '').length > 0 ? value : 'Not available'}
           </Descriptions.Item>
         );
       })}
