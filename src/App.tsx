@@ -1,4 +1,4 @@
-import './App.css';
+import './App.less';
 
 import { Provider as ReduxStoreProvider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
