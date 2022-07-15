@@ -8,12 +8,12 @@ const AddCategoryButton: React.FC = () => {
   const history = useHistory();
   const { url } = useRouteMatch();
 
-  const handleAddUser = () => {
+  const onAdd = () => {
     history.push(`${url}/add-category`);
   };
 
   return (
-    <Button onClick={() => handleAddUser()}>
+    <Button onClick={() => onAdd()}>
       <PlusOutlined />
       Add New Category
     </Button>

@@ -23,28 +23,19 @@ const convertCategoryInputToCategory = (categoryId: string, data: TCategoryInput
   return inputValues;
 };
 
-const useDispatchAddCategory = () => {
+const useDispatchUpdateCategory = () => {
   const dispatch = useDispatch();
 
   return (payload: { categoryId: string, categoryInput: TCategoryInput }) => {
     const state = store.getState();
 
-    const categoryIndexToUpdate = state.categories.findIndex((it) => it.id === payload.categoryId);
-
-    if (categoryIndexToUpdate > -1) {
-      const categoryData = convertCategoryInputToCategory(payload.categoryId, payload.categoryInput);
-      state.categories.splice(categoryIndexToUpdate, 1, categoryData);
-
-      return dispatch(action({
-        ...state,
-        categories: [
-          ...state.categories,
-        ],
-      }));
-    } else {
-      return dispatch(action(state));
-    }
+    return dispatch(action({
+      ...state,
+      categories: state.categories.map((it) => it.id === payload.categoryId
+        ? convertCategoryInputToCategory(payload.categoryId, payload.categoryInput)
+        : it),
+    }));
   };
 };
 
-export default useDispatchAddCategory;
+export default useDispatchUpdateCategory;
