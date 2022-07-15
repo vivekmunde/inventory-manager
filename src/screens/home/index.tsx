@@ -14,9 +14,9 @@ const Home: React.FC = () => (
       <Typography.Title level={2} className="m-4">Invento</Typography.Title>
       <Navigation />
     </Layout.Sider>
-    <div style={{ height: '100vh', flex: 1, overflow: 'auto' }}>
+    <Layout.Content className="p-4" style={{ height: '100vh', flex: 1, overflow: 'auto' }}>
       <HomeRoutes />
-    </div>
+    </Layout.Content>
   </Layout>
 );
 

@@ -1,4 +1,4 @@
-import { Col, Layout, Row, Typography } from 'antd';
+import { Col, Row, Typography } from 'antd';
 import React from 'react';
 
 import AddCategoryButton from './add-category-button';
@@ -7,8 +7,8 @@ import CategoriesRoutes from './routes';
 
 const Categories: React.FC = () => {
   return (
-    <Layout className="bg-transparent">
-      <Layout.Header className="bg-transparent p-4" style={{ height: 'auto' }}>
+    <div>
+      <div className="pb-4">
         <Row>
           <Col xs={24} sm={24} md={12}>
             <Typography.Title>Categories</Typography.Title>
@@ -17,12 +17,10 @@ const Categories: React.FC = () => {
             <AddCategoryButton />
           </Col>
         </Row>
-      </Layout.Header>
-      <Layout.Content className="pl-4 pr-4 pb-4">
-        <CategoryList />
-        <CategoriesRoutes />
-      </Layout.Content>
-    </Layout>
+      </div>
+      <CategoryList />
+      <CategoriesRoutes />
+    </div>
   );
 };
 

@@ -1,17 +1,14 @@
 import { Button, Dropdown, Menu } from 'antd';
 import React from 'react';
-import { shallowEqual, useSelector } from 'react-redux';
 import { useHistory, useRouteMatch } from 'react-router-dom';
 
 import { DownOutlined, PlusOutlined } from '@ant-design/icons';
 
-import { TState } from '../../redux/types';
 import { TCategory } from '../../types';
 
-const AddInventoryItemButton: React.FC = () => {
+const AddInventoryItemButton: React.FC<{ categories: TCategory[] }> = ({ categories }) => {
   const history = useHistory();
   const { url } = useRouteMatch();
-  const categories = useSelector<TState, TCategory[]>((state) => state.categories, shallowEqual);
 
   const onAdd = (categoryId: string) => {
     history.push(`${url}/${categoryId}/add-item`);

@@ -1,4 +1,4 @@
-import { Col, Layout, Row, Typography } from 'antd';
+import { Col, Row, Typography } from 'antd';
 import React, { useEffect } from 'react';
 import { shallowEqual, useSelector } from 'react-redux';
 import { useHistory, useParams } from 'react-router-dom';
@@ -21,8 +21,8 @@ const InventoryByCategory: React.FC = () => {
   }, [categoryId, category]);
 
   return (
-    <Layout className="bg-transparent">
-      <Layout.Header className="bg-transparent p-4" style={{ height: 'auto' }}>
+    <div>
+      <div className="p-4">
         <Row>
           <Col xs={24} sm={24} md={12}>
             <Typography.Title>{category?.title}</Typography.Title>
@@ -31,12 +31,12 @@ const InventoryByCategory: React.FC = () => {
             <AddInventoryItemButton categoryId={categoryId} />
           </Col>
         </Row>
-      </Layout.Header>
-      <Layout.Content className="pl-4 pr-4 pb-4">
+      </div>
+      <div>
         {category && <InventoryItemList category={category} />}
         <InventoryRoutes />
-      </Layout.Content>
-    </Layout>
+      </div>
+    </div>
   );
 };
 
