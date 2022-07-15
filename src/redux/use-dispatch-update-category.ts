@@ -1,12 +1,12 @@
 import { nanoid } from 'nanoid';
 import { useDispatch } from 'react-redux';
 
-import { TCategory, TCategoryInput, TInventoryItemField } from '../types';
+import { TCategory, TCategoryInput, TCategoryField } from '../types';
 import action from './action';
 import store from './store';
 
 const convertCategoryInputToCategory = (categoryId: string, data: TCategoryInput): TCategory => {
-  const fields: TInventoryItemField[] = data.fields.map((it) => ({
+  const fields: TCategoryField[] = data.fields.map((it) => ({
     id: it.id ?? nanoid(),
     type: it.type,
     title: it.title,

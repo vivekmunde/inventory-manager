@@ -1,11 +1,11 @@
-import { TInventoryItemFieldInput } from '../../types';
+import { TCategoryFieldInput } from '../../types';
 
-export interface TInventoryItemFieldFormInput extends TInventoryItemFieldInput {
+export interface TCategoryFieldFormInput extends TCategoryFieldInput {
   uiKey: string,
 }
 
 export type TCategoryFormInput = {
   title: string;
-  fields: TInventoryItemFieldFormInput[];
+  fields: TCategoryFieldFormInput[];
   fieldTitleUiKey: string;
 };

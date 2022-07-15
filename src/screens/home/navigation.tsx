@@ -5,7 +5,7 @@ const Navigation: React.FC = () => {
   const routeLocation = useLocation();
 
   const linkClassName = (path: string) => {
-    return `p-2 ${routeLocation.pathname.indexOf(path) > -1 ? '' : 'z-grey-4'}`;
+    return `p-1 ${routeLocation.pathname.indexOf(path) > -1 ? '' : 'z-grey-4'}`;
   };
 
   return (

@@ -1,14 +1,14 @@
-export type TInventoryItemFieldType = 'ShortText' | 'LongText' | 'Number' | 'Date';
+export type TCategoryFieldType = 'ShortText' | 'LongText' | 'Number' | 'Date';
 
-export type TInventoryItemField = {
+export type TCategoryField = {
   id: string,
-  type: TInventoryItemFieldType,
+  type: TCategoryFieldType,
   title: String,
 };
 
-export type TInventoryItemFieldInput = {
+export type TCategoryFieldInput = {
   id: string | null | undefined,
-  type: TInventoryItemFieldType,
+  type: TCategoryFieldType,
   title: String,
 };
 
@@ -16,12 +16,12 @@ export type TCategory = {
   id: string;
   slug: string;
   title: string;
-  fields: TInventoryItemField[];
+  fields: TCategoryField[];
   fieldTitleId: string;
 };
 
 export type TCategoryInput = {
   title: string;
-  fields: TInventoryItemFieldInput[];
+  fields: TCategoryFieldInput[];
   fieldTitleIdIndex: number;
 };

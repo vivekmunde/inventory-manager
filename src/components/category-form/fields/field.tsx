@@ -4,13 +4,13 @@ import React from 'react';
 import { CloseOutlined } from '@ant-design/icons';
 
 import { fieldTypeTranslations } from '../../../translations';
-import { TInventoryItemFieldFormInput } from '../types';
+import { TCategoryFieldFormInput } from '../types';
 
 const Field: React.FC<{
-  value: TInventoryItemFieldFormInput;
+  value: TCategoryFieldFormInput;
   canDelete: boolean;
-  onChange: (value: TInventoryItemFieldFormInput) => void;
-  onDelete: (value: TInventoryItemFieldFormInput) => void;
+  onChange: (value: TCategoryFieldFormInput) => void;
+  onDelete: (value: TCategoryFieldFormInput) => void;
 }> = React.memo(
   ({ value, canDelete, onChange, onDelete }) => (
     <Form.Item>

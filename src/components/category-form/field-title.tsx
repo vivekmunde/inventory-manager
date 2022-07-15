@@ -1,10 +1,10 @@
 import { Form, Select } from 'antd';
 import React from 'react';
 
-import { TInventoryItemFieldFormInput } from './types';
+import { TCategoryFieldFormInput } from './types';
 
 const FieldTitle: React.FC<{
-  fields: TInventoryItemFieldFormInput[];
+  fields: TCategoryFieldFormInput[];
   value: string;
   onChange: (value: string) => void;
 }> = ({ fields, value, onChange }) => {

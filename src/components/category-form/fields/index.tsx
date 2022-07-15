@@ -1,15 +1,15 @@
 import { nanoid } from 'nanoid';
 import React from 'react';
 
-import { TInventoryItemFieldFormInput } from '../types';
+import { TCategoryFieldFormInput } from '../types';
 import AddField from './add-field';
 import Field from './field';
 
 const Fields: React.FC<{
-  value: TInventoryItemFieldFormInput[];
-  onChange: (value: TInventoryItemFieldFormInput[]) => void;
+  value: TCategoryFieldFormInput[];
+  onChange: (value: TCategoryFieldFormInput[]) => void;
 }> = ({ value, onChange }) => {
-  const onFieldChange = (changedField: TInventoryItemFieldFormInput) => {
+  const onFieldChange = (changedField: TCategoryFieldFormInput) => {
     const indexOfChangedField = value.findIndex((it) => it.uiKey === changedField.uiKey);
     if (indexOfChangedField > -1) {
       value.splice(indexOfChangedField, 1, changedField);
@@ -17,7 +17,7 @@ const Fields: React.FC<{
     }
   };
 
-  const onFieldDelete = (deletedField: TInventoryItemFieldFormInput) => {
+  const onFieldDelete = (deletedField: TCategoryFieldFormInput) => {
     onChange(value.filter((it) => it.uiKey !== deletedField.uiKey));
   };
 

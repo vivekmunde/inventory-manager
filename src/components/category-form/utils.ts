@@ -1,4 +1,4 @@
-import { TCategory, TCategoryInput, TInventoryItemFieldInput } from '../../types';
+import { TCategory, TCategoryInput, TCategoryFieldInput } from '../../types';
 import { TCategoryFormInput } from './types';
 
 export const convertCategoryToCategoryFormInput = (data: TCategory): TCategoryFormInput => {
@@ -18,7 +18,7 @@ export const convertCategoryToCategoryFormInput = (data: TCategory): TCategoryFo
 export const convertCategoryFormInputToCategoryInput = (data: TCategoryFormInput): TCategoryInput => {
   const inputValues: TCategoryInput = {
     title: data.title,
-    fields: data.fields.map<TInventoryItemFieldInput>((it) => ({
+    fields: data.fields.map<TCategoryFieldInput>((it) => ({
       id: it.id,
       type: it.type,
       title: it.title,
