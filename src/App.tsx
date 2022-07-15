@@ -1,12 +1,15 @@
 import './App.css';
 
-import { Button } from 'antd';
+import { Provider as ReduxStoreProvider } from 'react-redux';
+
+import store from './redux/store';
 
 function App() {
+
   return (
-    <div>
-      <Button type="primary">Button</Button>
-    </div>
+    <ReduxStoreProvider store={store}>
+      {/* APP */}
+    </ReduxStoreProvider>
   );
 }
 
