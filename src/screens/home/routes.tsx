@@ -22,6 +22,7 @@ const HomeRoutes: React.ComponentType = () => (
           <Inventory />
         </Route>
         <Redirect exact from="/" to="/home" />
+        <Redirect path="*" to="/home" />
       </Switch>
     </React.Suspense>
   </ErrorBoundary>

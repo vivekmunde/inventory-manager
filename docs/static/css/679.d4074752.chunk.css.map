@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/679.d4074752.chunk.css","mappings":"AAAA,yCACE,sBACE,iBACF,CACF","sources":["components/screen-header/styles.module.less"],"sourcesContent":["@media only screen and (max-width: 768px) {\n  .header {\n    padding-left: 32px;\n  }\n}"],"names":[],"sourceRoot":""}
