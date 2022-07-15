@@ -11,6 +11,7 @@ const convertCategoryInputToCategory = (data: TCategoryInput): TCategory => {
     type: it.type,
     title: it.title,
   }));
+
   const inputValues: TCategory = {
     id: nanoid(),
     slug: data.title.replace(/\s/, '-'),
@@ -18,6 +19,7 @@ const convertCategoryInputToCategory = (data: TCategoryInput): TCategory => {
     fields,
     fieldTitleId: fields[data.fieldTitleIdIndex].id,
   };
+
   return inputValues;
 };
 
