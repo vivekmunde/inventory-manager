@@ -7,7 +7,7 @@ import DeleteCategoryButton from './delete-category-button';
 import EditCategoryButton from './edit-category-button';
 
 const CategoryCard: React.FC<{ category: TCategory }> = ({ category }) => (
-  <Card size="small" className="mb-4">
+  <Card size="small" className="mb-4 box-shadow">
     <Descriptions
       layout="vertical"
       size="small"

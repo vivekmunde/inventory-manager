@@ -10,7 +10,7 @@ const InventoryItemCard: React.FC<{
   category: TCategory;
   inventoryItem: TInventoryItem;
 }> = ({ category, inventoryItem }) => (
-  <Card size="small" className="mb-4">
+  <Card size="small" className="mb-4 box-shadow">
     <Descriptions
       layout="vertical"
       size="small"

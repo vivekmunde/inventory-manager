@@ -10,22 +10,29 @@ const Navigation: React.FC = () => {
   const categories = useSelector<TState, TCategory[]>((state) => state.categories, shallowEqual);
 
   const linkClassName = (path: string) => {
-    return `p-1 ${routeLocation.pathname.indexOf(path) > -1 ? '' : 'z-grey-4'}`;
+    return `pt-1 pb-1 ${routeLocation.pathname.toLowerCase() === path.toLowerCase() ? 'bold' : 'grey-10'}`;
   };
 
   return (
-    <nav className="p-2 flex flex-col">
-      <Link to="/" className={linkClassName('/')}>
-        Inventory
-      </Link>
-      <Link to="/categories" className={linkClassName('/categories')}>
-        Categories
-      </Link>
-      {categories.map((category) => (
-        <Link key={category.id} to={`/inventory/${category.id}`} className={linkClassName(`/inventory/${category.id}`)}>
-          {category.title}
+    <nav className="p-4 flex flex-col" style={{ overflow: 'auto' }}>
+      <div className="p-4 mb-4 flex flex-col bg-grey-1 border-radius">
+        <div className="pb-3 grey-6 uppercase">
+          Inventory
+        </div>
+        <Link to="/home" className={linkClassName('/home')}>
+          All
         </Link>
-      ))}
+        {categories.map((category) => (
+          <Link key={category.id} to={`/inventory/${category.id}`} className={linkClassName(`/inventory/${category.id}`)}>
+            {category.title}
+          </Link>
+        ))}
+      </div>
+      <div className="mt-4 pt-2 pb-2 pl-4 pr-4 flex flex-col bg-grey-1 border-radius">
+        <Link to="/categories" className={linkClassName('/categories')}>
+          Categories
+        </Link>
+      </div>
     </nav>
   );
 };
