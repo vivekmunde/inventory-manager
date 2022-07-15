@@ -33,7 +33,7 @@ const EditCategory: React.FC<{ goBackUrl: string }> = ({ goBackUrl }) => {
     <RouterDrawer goBackUrl={goBackUrl}>
       {(drawerProps, onToggle) => {
         const onSubmit = () => {
-          if (formValues) {
+          if (formValues && formValues.title && !formValues.fields.find((it) => (it.title ?? '').length === 0)) {
             dispatchUpdateCategory({
               categoryId,
               categoryInput: convertCategoryFormInputToCategoryInput(formValues),

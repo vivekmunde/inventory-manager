@@ -57,7 +57,7 @@ const InventoryItemCard: React.FC<{
             )}
             span={categoryField.type === 'LongText' ? 2 : 1}
           >
-            {value}
+            {(value ?? '').length > 0 ? value : 'Not available'}
           </Descriptions.Item>
         );
       })}
