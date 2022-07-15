@@ -1,9 +1,11 @@
-import { BulbOutlined } from '@ant-design/icons';
 import { Button, Card, Col, Result, Row, Typography } from 'antd';
 import React from 'react';
 import { shallowEqual, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 
+import { BulbOutlined } from '@ant-design/icons';
+
+import ScreenHeader from '../../components/screen-header';
 import { TState } from '../../redux/types';
 import { TCategory } from '../../types';
 import AddInventoryItemButton from './add-inventory-item-button';
@@ -15,7 +17,7 @@ const Inventory: React.FC = () => {
 
   return (
     <div>
-      <div className="pb-4">
+      <ScreenHeader>
         <Row>
           <Col xs={24} sm={24} md={12}>
             <Typography.Title>Inventory</Typography.Title>
@@ -24,7 +26,7 @@ const Inventory: React.FC = () => {
             {categories.length > 0 && <AddInventoryItemButton categories={categories} />}
           </Col>
         </Row>
-      </div>
+      </ScreenHeader>
       {categories.length === 0
         ? (
           <Card className="box-shadow">
@@ -33,7 +35,7 @@ const Inventory: React.FC = () => {
               title="Categories are the core classification of the Inventory!"
               subTitle="Please add a category first to start managing your inventory."
               extra={[
-                <Link to="/categories/add-category">
+                <Link to="/categories/add-category" key="add-category">
                   <Button type="primary">
                     Add a Category
                   </Button>

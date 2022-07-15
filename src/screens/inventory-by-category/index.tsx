@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import { shallowEqual, useSelector } from 'react-redux';
 import { useHistory, useParams } from 'react-router-dom';
 
+import ScreenHeader from '../../components/screen-header';
 import { TState } from '../../redux/types';
 import { TCategory } from '../../types';
 import AddInventoryItemButton from './add-inventory-item-button';
@@ -22,7 +23,7 @@ const InventoryByCategory: React.FC = () => {
 
   return (
     <div>
-      <div className="p-4">
+      <ScreenHeader>
         <Row>
           <Col xs={24} sm={24} md={12}>
             <Typography.Title>{category?.title}</Typography.Title>
@@ -31,7 +32,7 @@ const InventoryByCategory: React.FC = () => {
             <AddInventoryItemButton categoryId={categoryId} />
           </Col>
         </Row>
-      </div>
+      </ScreenHeader>
       <div>
         {category && <InventoryItemList category={category} />}
         <InventoryRoutes />

@@ -1,6 +1,7 @@
 import { Col, Row, Typography } from 'antd';
 import React from 'react';
 
+import ScreenHeader from '../../components/screen-header';
 import AddCategoryButton from './add-category-button';
 import CategoryList from './category-list';
 import CategoriesRoutes from './routes';
@@ -8,7 +9,7 @@ import CategoriesRoutes from './routes';
 const Categories: React.FC = () => {
   return (
     <div>
-      <div className="pb-4">
+      <ScreenHeader>
         <Row>
           <Col xs={24} sm={24} md={12}>
             <Typography.Title>Categories</Typography.Title>
@@ -17,7 +18,7 @@ const Categories: React.FC = () => {
             <AddCategoryButton />
           </Col>
         </Row>
-      </div>
+      </ScreenHeader>
       <CategoryList />
       <CategoriesRoutes />
     </div>
