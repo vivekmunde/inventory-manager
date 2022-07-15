@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/inventory-manager/static/css/main.fef394d6.css",
-    "main.js": "/inventory-manager/static/js/main.9bd6eea6.js",
+    "main.js": "/inventory-manager/static/js/main.9b710ee3.js",
     "static/css/137.9a8e255e.chunk.css": "/inventory-manager/static/css/137.9a8e255e.chunk.css",
-    "static/js/137.9e839dde.chunk.js": "/inventory-manager/static/js/137.9e839dde.chunk.js",
+    "static/js/137.62b52315.chunk.js": "/inventory-manager/static/js/137.62b52315.chunk.js",
     "static/css/679.9a8e255e.chunk.css": "/inventory-manager/static/css/679.9a8e255e.chunk.css",
     "static/js/679.bb7391af.chunk.js": "/inventory-manager/static/js/679.bb7391af.chunk.js",
     "static/css/702.9a8e255e.chunk.css": "/inventory-manager/static/css/702.9a8e255e.chunk.css",
     "static/js/702.3effffe5.chunk.js": "/inventory-manager/static/js/702.3effffe5.chunk.js",
     "static/js/787.bcf644da.chunk.js": "/inventory-manager/static/js/787.bcf644da.chunk.js",
     "static/js/268.11da9c04.chunk.js": "/inventory-manager/static/js/268.11da9c04.chunk.js",
-    "static/js/633.c07dbfdb.chunk.js": "/inventory-manager/static/js/633.c07dbfdb.chunk.js",
+    "static/js/633.3b10a953.chunk.js": "/inventory-manager/static/js/633.3b10a953.chunk.js",
     "static/js/30.03ca7faf.chunk.js": "/inventory-manager/static/js/30.03ca7faf.chunk.js",
     "static/js/68.b60782ac.chunk.js": "/inventory-manager/static/js/68.b60782ac.chunk.js",
     "static/js/113.d65ac43e.chunk.js": "/inventory-manager/static/js/113.d65ac43e.chunk.js",
@@ -20,16 +20,16 @@
     "static/js/426.8622e4aa.chunk.js": "/inventory-manager/static/js/426.8622e4aa.chunk.js",
     "index.html": "/inventory-manager/index.html",
     "main.fef394d6.css.map": "/inventory-manager/static/css/main.fef394d6.css.map",
-    "main.9bd6eea6.js.map": "/inventory-manager/static/js/main.9bd6eea6.js.map",
+    "main.9b710ee3.js.map": "/inventory-manager/static/js/main.9b710ee3.js.map",
     "137.9a8e255e.chunk.css.map": "/inventory-manager/static/css/137.9a8e255e.chunk.css.map",
-    "137.9e839dde.chunk.js.map": "/inventory-manager/static/js/137.9e839dde.chunk.js.map",
+    "137.62b52315.chunk.js.map": "/inventory-manager/static/js/137.62b52315.chunk.js.map",
     "679.9a8e255e.chunk.css.map": "/inventory-manager/static/css/679.9a8e255e.chunk.css.map",
     "679.bb7391af.chunk.js.map": "/inventory-manager/static/js/679.bb7391af.chunk.js.map",
     "702.9a8e255e.chunk.css.map": "/inventory-manager/static/css/702.9a8e255e.chunk.css.map",
     "702.3effffe5.chunk.js.map": "/inventory-manager/static/js/702.3effffe5.chunk.js.map",
     "787.bcf644da.chunk.js.map": "/inventory-manager/static/js/787.bcf644da.chunk.js.map",
     "268.11da9c04.chunk.js.map": "/inventory-manager/static/js/268.11da9c04.chunk.js.map",
-    "633.c07dbfdb.chunk.js.map": "/inventory-manager/static/js/633.c07dbfdb.chunk.js.map",
+    "633.3b10a953.chunk.js.map": "/inventory-manager/static/js/633.3b10a953.chunk.js.map",
     "30.03ca7faf.chunk.js.map": "/inventory-manager/static/js/30.03ca7faf.chunk.js.map",
     "68.b60782ac.chunk.js.map": "/inventory-manager/static/js/68.b60782ac.chunk.js.map",
     "113.d65ac43e.chunk.js.map": "/inventory-manager/static/js/113.d65ac43e.chunk.js.map",
@@ -40,6 +40,6 @@
   },
   "entrypoints": [
     "static/css/main.fef394d6.css",
-    "static/js/main.9bd6eea6.js"
+    "static/js/main.9b710ee3.js"
   ]
 }
