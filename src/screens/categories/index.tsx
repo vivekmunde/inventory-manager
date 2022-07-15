@@ -9,7 +9,7 @@ const Categories: React.FC = () => {
   return (
     <Layout className="bg-transparent">
       <Layout.Header className="bg-transparent p-4" style={{ height: 'auto' }}>
-        <Row style={{ width: '100%' }}>
+        <Row>
           <Col xs={24} sm={24} md={12}>
             <Typography.Title>Categories</Typography.Title>
           </Col>

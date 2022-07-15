@@ -7,6 +7,7 @@ const PERSISTENT_STATE = 'PERSISTENT_STATE';
 export function getDefaultState(): TState {
   return {
     categories: [],
+    inventoryItems:[],
   };
 }
 

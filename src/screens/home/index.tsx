@@ -7,7 +7,7 @@ import HomeRoutes from './routes';
 const Home: React.FC = () => (
   <Layout className="bg-transparent" style={{ minHeight: '100vh' }}>
     <Layout.Sider
-      className="border-r"
+      className="border-split-r"
       theme="light"
       breakpoint="lg"
       collapsedWidth="0">

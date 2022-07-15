@@ -1,14 +1,27 @@
-import { Layout, Typography } from 'antd';
+import { Col, Layout, Row, Typography } from 'antd';
 import React from 'react';
 
-const Categories: React.FC = () => (
+import AddInventoryItemButton from './add-inventory-item-button';
+import InventoryItemList from '../../components/inventory-list';
+import InventoryRoutes from './routes';
+
+const Inventory: React.FC = () => (
   <Layout className="bg-transparent">
-    <Layout.Header className="bg-transparent p-4">
-      <Typography.Title level={1}>Inventory</Typography.Title>
+    <Layout.Header className="bg-transparent p-4" style={{ height: 'auto' }}>
+      <Row>
+        <Col xs={24} sm={24} md={12}>
+          <Typography.Title>Inventory</Typography.Title>
+        </Col>
+        <Col xs={24} sm={24} md={12} className="flex flex-row justify-end items-center">
+          <AddInventoryItemButton />
+        </Col>
+      </Row>
     </Layout.Header>
-    <Layout.Content className="p-4"></Layout.Content>
-    {/*  */}
+    <Layout.Content className="p-4">
+      <InventoryItemList />
+      <InventoryRoutes />
+    </Layout.Content>
   </Layout>
 );
 
-export default Categories;
+export default Inventory;

@@ -25,3 +25,19 @@ export type TCategoryInput = {
   fields: TCategoryFieldInput[];
   fieldTitleIdIndex: number;
 };
+
+export type TInventoryItemField = {
+  categoryFieldId: string,
+  value: string;
+};
+
+export type TInventoryItem = {
+  id: string;
+  categoryId: string;
+  data: TInventoryItemField[];
+};
+
+export type TInventoryItemInput = {
+  categoryId: string;
+  data: TInventoryItemField[];
+};
