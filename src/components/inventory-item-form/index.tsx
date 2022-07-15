@@ -61,7 +61,7 @@ const InventoryItemForm: React.FC<{
                 <DatePicker
                   format="DD MMM 'YY"
                   style={{ width: '100%' }}
-                  value={data.value && data.value.length > 0 ? moment(Number(data.value)) : moment()}
+                  value={data.value && data.value.length > 0 ? moment(Number(data.value)) : undefined}
                   allowClear={false}
                   onChange={(changedDate) => {
                     onFieldValueChange(changedDate?.valueOf().toString() ?? '');

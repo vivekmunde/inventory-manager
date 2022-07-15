@@ -1,16 +1,16 @@
 import React from 'react';
 import { shallowEqual, useSelector } from 'react-redux';
 
+import InventoryItemCard from '../../components/inventory-list/inventory-item-card';
 import { TState } from '../../redux/types';
 import { TCategory, TInventoryItem } from '../../types';
-import InventoryItemCard from './inventory-item-card';
 
 const InventoryItemList: React.FC = () => {
   const categories = useSelector<TState, TCategory[]>((state) => state.categories, shallowEqual);
   const inventoryItems = useSelector<TState, TInventoryItem[]>((state) => state.inventoryItems, shallowEqual);
 
   return (
-    <div className="pt-4">
+    <div>
       {inventoryItems.map((inventoryItem) => {
         const category = categories.find((it) => it.id === inventoryItem.categoryId);
 

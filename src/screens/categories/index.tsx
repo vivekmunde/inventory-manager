@@ -18,7 +18,7 @@ const Categories: React.FC = () => {
           </Col>
         </Row>
       </Layout.Header>
-      <Layout.Content className="p-4">
+      <Layout.Content className="pl-4 pr-4 pb-4">
         <CategoryList />
         <CategoriesRoutes />
       </Layout.Content>

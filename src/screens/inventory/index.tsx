@@ -2,7 +2,7 @@ import { Col, Layout, Row, Typography } from 'antd';
 import React from 'react';
 
 import AddInventoryItemButton from './add-inventory-item-button';
-import InventoryItemList from '../../components/inventory-list';
+import InventoryItemList from './inventory-list';
 import InventoryRoutes from './routes';
 
 const Inventory: React.FC = () => (
@@ -17,7 +17,7 @@ const Inventory: React.FC = () => (
         </Col>
       </Row>
     </Layout.Header>
-    <Layout.Content className="p-4">
+    <Layout.Content className="pl-4 pr-4 pb-4">
       <InventoryItemList />
       <InventoryRoutes />
     </Layout.Content>

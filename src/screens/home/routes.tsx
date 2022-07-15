@@ -12,7 +12,7 @@ const HomeRoutes: React.ComponentType = () => (
   <ErrorBoundary>
     <React.Suspense fallback={<AppOverlaySpinner />}>
       <Switch>
-        <Route path="/inventory/:category">
+        <Route path="/inventory/:categoryId">
           <InventoryByCategory />
         </Route>
         <Route path="/categories">

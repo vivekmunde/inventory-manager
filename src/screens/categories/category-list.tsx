@@ -9,7 +9,7 @@ const CategoryList: React.FC = () => {
   const categories = useSelector<TState, TCategory[]>((state) => state.categories, shallowEqual);
 
   return (
-    <div className="pt-4">
+    <div>
       {categories.map((category) => (
         <CategoryCard key={category.id} category={category} />
       ))}
