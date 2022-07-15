@@ -26,10 +26,10 @@ const convertCategoryInputToCategory = (data: TCategoryInput): TCategory => {
 const useDispatchAddCategory = () => {
   const dispatch = useDispatch();
 
-  return (payload: TCategoryInput) => {
+  return (categoryInput: TCategoryInput) => {
     const state = store.getState();
 
-    const categoryData = convertCategoryInputToCategory(payload);
+    const categoryData = convertCategoryInputToCategory(categoryInput);
 
     return dispatch(action({
       ...state,

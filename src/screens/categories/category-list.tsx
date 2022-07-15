@@ -8,8 +8,6 @@ import CategoryCard from './category-card';
 const CategoryList: React.FC = () => {
   const categories = useSelector<TState, TCategory[]>((state) => state.categories, shallowEqual);
 
-  console.log(categories);
-
   return (
     <div className="pt-4">
       {categories.map((category) => (
