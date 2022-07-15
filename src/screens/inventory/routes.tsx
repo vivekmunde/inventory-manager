@@ -5,6 +5,7 @@ import AppOverlaySpinner from '../../components/app-overlay-spinner';
 import ErrorBoundary from '../../components/error-boundary';
 
 const AddInventoryItem = lazy(() => import('../add-inventory-item'));
+const EditInventoryItem = lazy(() => import('../edit-inventory-item'));
 
 const InventoryRoutes: React.ComponentType = () => {
   const { url } = useRouteMatch();
@@ -15,6 +16,9 @@ const InventoryRoutes: React.ComponentType = () => {
         <Switch>
           <Route exact path={`${url}/:categoryId/add-item`}>
             <AddInventoryItem goBackUrl={url} />
+          </Route>
+          <Route exact path={`${url}/:inventoryItemId/edit-item`}>
+            <EditInventoryItem goBackUrl={url} />
           </Route>
         </Switch>
       </React.Suspense>

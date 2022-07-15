@@ -1,8 +1,9 @@
-import { Card, Descriptions, Typography } from 'antd';
+import { Card, Descriptions, Space, Typography } from 'antd';
 import moment from 'moment';
 import React from 'react';
 
 import { TCategory, TInventoryItem } from '../../types';
+import EditInventoryItemButton from './edit-inventory-item-button';
 
 const InventoryItemCard: React.FC<{
   category: TCategory;
@@ -55,10 +56,10 @@ const InventoryItemCard: React.FC<{
         );
       })}
     </Descriptions>
-    {/* <Space className="mt-1" direction="horizontal" size="small">
-      <EditInventoryItemButton categoryId={category.id} />
-      <DeleteInventoryItemButton categoryId={category.id} />
-    </Space> */}
+    <Space className="mt-1" direction="horizontal" size="small">
+      <EditInventoryItemButton inventoryItemId={inventoryItem.id} />
+      {/* <DeleteInventoryItemButton categoryId={category.id} /> */}
+    </Space>
   </Card>
 );
 
