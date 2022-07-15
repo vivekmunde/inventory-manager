@@ -29,6 +29,23 @@ const useDispatchUpdateCategory = () => {
   return (payload: { categoryId: string, categoryInput: TCategoryInput }) => {
     const state = store.getState();
 
+    const stateCategory = state.categories.find((it) => it.id === payload.categoryId);
+    const areCategoryFieldsRemoved =
+      payload.categoryInput.fields.map((it) => it.id).filter(Boolean).sort().join('')
+      !== stateCategory?.fields.map((it) => it.id).filter(Boolean).sort().join('');
+    if (areCategoryFieldsRemoved) {
+      return dispatch(action({
+        ...state,
+        categories: state.categories.map((it) => it.id === payload.categoryId
+          ? convertCategoryInputToCategory(payload.categoryId, payload.categoryInput)
+          : it),
+        inventoryItems: state.inventoryItems.map((inventoryItem) => ({
+          ...inventoryItem,
+          data: inventoryItem.data.filter((data) => payload.categoryInput.fields.find((field) => field.id === data.categoryFieldId))
+        })),
+      }));
+    }
+
     return dispatch(action({
       ...state,
       categories: state.categories.map((it) => it.id === payload.categoryId
