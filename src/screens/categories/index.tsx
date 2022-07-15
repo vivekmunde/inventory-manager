@@ -1,15 +1,23 @@
 import { Layout, Typography } from 'antd';
 import React from 'react';
 
-const Inventory: React.FC = () => (
-  <Layout className="bg-transparent">
-    <Layout.Header className="bg-transparent p-4">
-      <Typography.Title>Categories</Typography.Title>
-    </Layout.Header>
-    <Layout.Content className="p-4">
-      {/*  */}
-    </Layout.Content>
-  </Layout>
-);
+import AddCategoryButton from './add-category-button';
+import CategoryList from './category-list';
+import CategoriesRoutes from './routes';
 
-export default Inventory;
+const Categories: React.FC = () => {
+  return (
+    <Layout className="bg-transparent">
+      <Layout.Header className="bg-transparent p-4 flex flex-row justify-between">
+        <Typography.Title>Categories</Typography.Title>
+        <AddCategoryButton />
+      </Layout.Header>
+      <Layout.Content className="p-4">
+        <CategoryList />
+        <CategoriesRoutes />
+      </Layout.Content>
+    </Layout>
+  );
+};
+
+export default Categories;

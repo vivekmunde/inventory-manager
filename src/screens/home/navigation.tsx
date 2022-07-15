@@ -11,7 +11,7 @@ const Navigation: React.FC = () => {
   return (
     <nav className="p-2 flex flex-col">
       <Link to="/" className={linkClassName('/')}>
-        Home
+        Inventory
       </Link>
       <Link to="/categories" className={linkClassName('/categories')}>
         Categories
