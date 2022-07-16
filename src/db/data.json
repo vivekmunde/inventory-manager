@@ -1,0 +1,862 @@
+{
+  "categories": [
+    {
+      "id": "jlEZiXgElbSvhv53j02X_",
+      "slug": "Tractor",
+      "title": "Tractor",
+      "fields": [
+        {
+          "id": "4cORZO2OMCT3cBXSMibKN",
+          "type": "ShortText",
+          "title": "Model"
+        },
+        {
+          "id": "GMZjrMr0UUEQcvw0Wpy3B",
+          "type": "ShortText",
+          "title": "Brand"
+        },
+        {
+          "id": "UG7hr3s7w0sQJX6tP5kfl",
+          "type": "Number",
+          "title": "Engine Cylinder"
+        },
+        {
+          "id": "N9OdVpL2Vt25pDpNppmXI",
+          "type": "ShortText",
+          "title": "Transmission Type"
+        },
+        {
+          "id": "h7kgw9lbxBKS1brWutYSh",
+          "type": "ShortText",
+          "title": "Number Of Gears"
+        },
+        {
+          "id": "59kWeuw7rVwr9qs9L_Ik_",
+          "type": "Number",
+          "title": "Lifting Capacity (KG)"
+        },
+        {
+          "id": "7-cyH9zvgXci4uHngnnt9",
+          "type": "Number",
+          "title": "Fuel Tank Capacity (L)"
+        },
+        {
+          "id": "Jj9RxstFGUYNkZnix9xF-",
+          "type": "ShortText",
+          "title": "Battery"
+        },
+        {
+          "id": "OIfsqd1gypwrd2AaXSbD1",
+          "type": "LongText",
+          "title": "Hydraulic Control"
+        },
+        {
+          "id": "hSlKdHn6GycWwG51O-oCh",
+          "type": "LongText",
+          "title": "Description"
+        }
+      ],
+      "fieldTitleId": "4cORZO2OMCT3cBXSMibKN"
+    },
+    {
+      "id": "JmYN6gI75af4-DqtcaVma",
+      "slug": "Bulldozer",
+      "title": "Bulldozer",
+      "fields": [
+        {
+          "id": "IMP00e5c0N2EGwEe_hbm_",
+          "type": "ShortText",
+          "title": "Model"
+        },
+        {
+          "id": "SJwMUdfWJT9WEfAlCyGy0",
+          "type": "ShortText",
+          "title": "Engine Model"
+        },
+        {
+          "id": "3aXAYAvhiL0tlNIbv0kXt",
+          "type": "Number",
+          "title": "Power (Net)"
+        },
+        {
+          "id": "GSEIpTjsxJb2UUX2Lo0Ip",
+          "type": "Number",
+          "title": "Operating Weight (KG)"
+        },
+        {
+          "id": "qR1ELsZwsh6_f-veWHRFJ",
+          "type": "ShortText",
+          "title": "Power Train"
+        },
+        {
+          "id": "4jpR_rT4aSsfCHjlWZO93",
+          "type": "Number",
+          "title": "Fuel Tank (Litre)"
+        },
+        {
+          "id": "gfFFvsNX587aImSH6296u",
+          "type": "LongText",
+          "title": "Emissions"
+        },
+        {
+          "id": "YVXac-qXd8H1zxhlaJ1WT",
+          "type": "LongText",
+          "title": "Description"
+        }
+      ],
+      "fieldTitleId": "IMP00e5c0N2EGwEe_hbm_"
+    },
+    {
+      "id": "kotJ52cUFwG0epqPMYxGr",
+      "slug": "Excavator",
+      "title": "Excavator",
+      "fields": [
+        {
+          "id": "2pIw2jgbUMCEd82VaeopR",
+          "type": "ShortText",
+          "title": "Model"
+        },
+        {
+          "id": "_mWLlK6AerbJib0WtVkXe",
+          "type": "ShortText",
+          "title": "Brand"
+        },
+        {
+          "id": "5TOXanRscRZdxnnfNSHhS",
+          "type": "Number",
+          "title": "Net Power (KW)"
+        },
+        {
+          "id": "8XUS1AMTzvsLlc8w-Qerh",
+          "type": "Number",
+          "title": "Working Weight (KG)"
+        },
+        {
+          "id": "w5TWWdSPlcYZC3a4e-l4a",
+          "type": "Number",
+          "title": "Engine Power (HP)"
+        },
+        {
+          "id": "6BYLDjMTFbqWp-XjObQM9",
+          "type": "ShortText",
+          "title": "Hydraulic System"
+        },
+        {
+          "id": "-7dKTG8yOziS_AK3EdGyG",
+          "type": "Number",
+          "title": "Swing Speed (R/MIN)"
+        },
+        {
+          "id": "F4I6q6lWI7Sit4FWIBu7C",
+          "type": "Number",
+          "title": "Operating Weight (KG)"
+        },
+        {
+          "id": "V-nKL8UkFfQs9GpFkTR5x",
+          "type": "LongText",
+          "title": "Work Tools"
+        },
+        {
+          "id": "1Y60w5I96rkPGhN0l2pah",
+          "type": "LongText",
+          "title": "Description"
+        }
+      ],
+      "fieldTitleId": "2pIw2jgbUMCEd82VaeopR"
+    },
+    {
+      "id": "iG2Jq9Hwdb1L38Bhifv76",
+      "slug": "Crane",
+      "title": "Crane",
+      "fields": [
+        {
+          "id": "v995xZtncDSVen7MfTWPB",
+          "type": "ShortText",
+          "title": "Model"
+        },
+        {
+          "id": "fAk9a5lnlEKjz4tZuaVV3",
+          "type": "ShortText",
+          "title": "Brand"
+        },
+        {
+          "id": "COXg4EvVg6WJEunxVnsef",
+          "type": "Number",
+          "title": "Engine Model"
+        },
+        {
+          "id": "lNnjT15rN5idA0dwcI9Ge",
+          "type": "Number",
+          "title": "Weight (KG)"
+        },
+        {
+          "id": "b4nh_bz8KRhhf_sxUyIUQ",
+          "type": "Number",
+          "title": "Power (HP)"
+        },
+        {
+          "id": "bbV6KAHMg0fj29Sk2koTq",
+          "type": "Number",
+          "title": "Fuel Capacity (Litre)"
+        },
+        {
+          "id": "rnABHAqGMR48A5b4Qdn2E",
+          "type": "ShortText",
+          "title": "Hydraulic System"
+        },
+        {
+          "id": "0ChLSgvmy7nFOWAYMJjsn",
+          "type": "LongText",
+          "title": "Equipments"
+        },
+        {
+          "id": "tcVGBsNDvsRESrAhub90L",
+          "type": "LongText",
+          "title": "Description"
+        }
+      ],
+      "fieldTitleId": "v995xZtncDSVen7MfTWPB"
+    },
+    {
+      "id": "uOwnmPvFvSejTSQOLN9Cw",
+      "slug": "Industrial-Lift",
+      "title": "Industrial Lift",
+      "fields": [
+        {
+          "id": "zRpj_cSMfXXx4OyLKWAaZ",
+          "type": "ShortText",
+          "title": "Model"
+        },
+        {
+          "id": "ew-3oeAYhPPxJrBoGEhC-",
+          "type": "ShortText",
+          "title": "Maker"
+        },
+        {
+          "id": "ZM8oJLKVW4oD-uITc-Gwd",
+          "type": "Number",
+          "title": "Capacity (KG)"
+        },
+        {
+          "id": "d0HH4Dpyj0HwlcMaiIRWG",
+          "type": "Number",
+          "title": "Operating Weight (KG)"
+        },
+        {
+          "id": "GK4yBk8wVc-DjyDJs6-fR",
+          "type": "Number",
+          "title": "Power (Voltage)"
+        },
+        {
+          "id": "mQ7WMOy6TV9mPUREruRev",
+          "type": "LongText",
+          "title": "Description"
+        }
+      ],
+      "fieldTitleId": "zRpj_cSMfXXx4OyLKWAaZ"
+    },
+    {
+      "id": "UEBPe7IBOJYFMaGw2Sorg",
+      "slug": "Drilling-Machine",
+      "title": "Drilling Machine",
+      "fields": [
+        {
+          "id": "1bKGtDL3JojmH_Zg4H91m",
+          "type": "ShortText",
+          "title": "Model"
+        },
+        {
+          "id": "d8mWUP4rkls-QejfI1B_E",
+          "type": "ShortText",
+          "title": "Brand"
+        },
+        {
+          "id": "oTCiX_CwK_CBBGc442gqd",
+          "type": "Number",
+          "title": "RPM"
+        },
+        {
+          "id": "QsKk9KXjnP4e4iUbQ_CF2",
+          "type": "ShortText",
+          "title": "Dimensions"
+        },
+        {
+          "id": "y6ceoFRcAVftvAcuNmMAl",
+          "type": "ShortText",
+          "title": "Colour"
+        },
+        {
+          "id": "XTmGDp4tRuU6g7gD9KpZp",
+          "type": "ShortText",
+          "title": "Voltage"
+        },
+        {
+          "id": "nkLX0Gc-mFnE6DBc0E5v4",
+          "type": "Number",
+          "title": "Weight (KG)"
+        },
+        {
+          "id": "XNCH7nc-K7AQxe6WRFShm",
+          "type": "LongText",
+          "title": "Description"
+        }
+      ],
+      "fieldTitleId": "1bKGtDL3JojmH_Zg4H91m"
+    },
+    {
+      "id": "Dpir6tWgQODNakOR1R00U",
+      "slug": "Industrial-Cutter",
+      "title": "Industrial Cutter",
+      "fields": [
+        {
+          "id": "54UlFnCteViR4PlhGHzgO",
+          "type": "ShortText",
+          "title": "Model"
+        },
+        {
+          "id": "RkJyYSu7QPHMZcM6xe5Y8",
+          "type": "ShortText",
+          "title": "Maker"
+        },
+        {
+          "id": "BdmgXmJ5bwsqVJaTCoThY",
+          "type": "ShortText",
+          "title": "Dimensions"
+        },
+        {
+          "id": "XeVG1hWv27q990KXxWOy4",
+          "type": "Number",
+          "title": "Weight (KG)"
+        },
+        {
+          "id": "l1wogsnAxK5EhNIL3SXcf",
+          "type": "LongText",
+          "title": "Tools"
+        },
+        {
+          "id": "yr4xoepJ5ePQo6gC0f8ng",
+          "type": "LongText",
+          "title": "Description"
+        }
+      ],
+      "fieldTitleId": "54UlFnCteViR4PlhGHzgO"
+    },
+    {
+      "id": "GFBPbAEIVl1qXjqUOyfPr",
+      "slug": "Suing-Machine",
+      "title": "Suing Machine",
+      "fields": [
+        {
+          "id": "zqTlgcIuXgsA4TBgtOgrP",
+          "type": "ShortText",
+          "title": "Model"
+        },
+        {
+          "id": "TTWcpnb6vau8wc5EBLCz5",
+          "type": "ShortText",
+          "title": "Brand"
+        },
+        {
+          "id": "D7zDepG4FcZXRbVwqBg25",
+          "type": "Number",
+          "title": "Speed"
+        },
+        {
+          "id": "fpYgyrFuD_d3V1nCI-qTa",
+          "type": "ShortText",
+          "title": "Dimensions"
+        },
+        {
+          "id": "CIWighMd4bGgEcnikI1E1",
+          "type": "Number",
+          "title": "Weight (KG)"
+        },
+        {
+          "id": "musEEPjfite77rbEc8-Ky",
+          "type": "Number",
+          "title": "Quantity"
+        },
+        {
+          "id": "aQC7Ujs1Kcn_5WX5On3uO",
+          "type": "LongText",
+          "title": "Description"
+        }
+      ],
+      "fieldTitleId": "zqTlgcIuXgsA4TBgtOgrP"
+    },
+    {
+      "id": "lrW1HtJo03qNmtu3HgyLK",
+      "slug": "Water-Jet-Pump",
+      "title": "Water Jet-Pump",
+      "fields": [
+        {
+          "id": "aQ8TJCKZzFMYk_7B2F4Lx",
+          "type": "ShortText",
+          "title": "Model"
+        },
+        {
+          "id": "SYKcenvvs2m__TJgkKtaK",
+          "type": "ShortText",
+          "title": "Maker"
+        },
+        {
+          "id": "OzwpEh5Iqpn_RnaSDsffV",
+          "type": "Number",
+          "title": "Power (HP)"
+        },
+        {
+          "id": "Wi45Ue_pUOOTq8Rjv0i3C",
+          "type": "Number",
+          "title": "Weight (KG)"
+        },
+        {
+          "id": "UpOzpUEK3AJCE1W7IvHxj",
+          "type": "ShortText",
+          "title": "Fuel Type"
+        },
+        {
+          "id": "XbwB4ZIp9x-n89HdoQgMd",
+          "type": "ShortText",
+          "title": "Dimensions (mm)"
+        },
+        {
+          "id": "gdKhbJYU_jLPsprEMaveH",
+          "type": "ShortText",
+          "title": "System Type"
+        },
+        {
+          "id": "nikewJizqgLF-UG2DnqeQ",
+          "type": "LongText",
+          "title": "Dimension"
+        }
+      ],
+      "fieldTitleId": "aQ8TJCKZzFMYk_7B2F4Lx"
+    },
+    {
+      "id": "pv-Cm4XI3n-Qa0tXBFBB3",
+      "slug": "Truck-Loader",
+      "title": "Truck Loader",
+      "fields": [
+        {
+          "id": "ee-1jUHwE7kcmtayCn-rj",
+          "type": "ShortText",
+          "title": "Model"
+        },
+        {
+          "id": "g9tfFN9Ww3MVA1v-gqjSG",
+          "type": "ShortText",
+          "title": "Brand"
+        },
+        {
+          "id": "9-gBhHlv-ovK6kToB5IoB",
+          "type": "Number",
+          "title": "Weight Capacity (KG)"
+        },
+        {
+          "id": "iuvktvJIdfw510B9qzchy",
+          "type": "Number",
+          "title": "Fuel Capacity (Litre)"
+        },
+        {
+          "id": "WtMFCyKW_E9wF7lrVBJ89",
+          "type": "LongText",
+          "title": "Description"
+        }
+      ],
+      "fieldTitleId": "ee-1jUHwE7kcmtayCn-rj"
+    },
+    {
+      "id": "5m1-bH4R7gfEbYc5pwf-j",
+      "slug": "Washing-Machine",
+      "title": "Washing Machine",
+      "fields": [
+        {
+          "id": "AYQDJDMQ5lyGJ9kFfVIUW",
+          "type": "ShortText",
+          "title": "Model"
+        },
+        {
+          "id": "EVlG9Amz8435170R7SpdD",
+          "type": "ShortText",
+          "title": "Brand"
+        },
+        {
+          "id": "D5VJoXy8etf-CcbWJneJ5",
+          "type": "Number",
+          "title": "Weight (KG)"
+        },
+        {
+          "id": "SNyidmx3GvP3vKTJ35v_5",
+          "type": "Number",
+          "title": "Capacity (KG)"
+        },
+        {
+          "id": "Nhd8Cs-LsI0ADvhIdQjYF",
+          "type": "ShortText",
+          "title": "Loading Type"
+        },
+        {
+          "id": "yV6jgd6wxyce9Gp75rrO_",
+          "type": "ShortText",
+          "title": "Color"
+        },
+        {
+          "id": "VrsA_VuU9r0jD6kHrZvmO",
+          "type": "ShortText",
+          "title": "Dimension"
+        },
+        {
+          "id": "UxTleYQYU-UQf85Wk_b6V",
+          "type": "LongText",
+          "title": "Description"
+        }
+      ],
+      "fieldTitleId": "AYQDJDMQ5lyGJ9kFfVIUW"
+    },
+    {
+      "id": "Sabz-TCvFTNBrV2S7UF_Q",
+      "slug": "Burner",
+      "title": "Burner",
+      "fields": [
+        {
+          "id": "_FORVSJ5T_kWZLgkfTqwp",
+          "type": "ShortText",
+          "title": "Model"
+        },
+        {
+          "id": "aDBJeSxwVKqqBNI-aFVJi",
+          "type": "ShortText",
+          "title": "Maker"
+        },
+        {
+          "id": "fQUJ-j9vZqvB4b3DxFBWy",
+          "type": "ShortText",
+          "title": "Power Type"
+        },
+        {
+          "id": "mJSgx-OEBxuwQ5bDvIpLU",
+          "type": "LongText",
+          "title": "Description"
+        }
+      ],
+      "fieldTitleId": "_FORVSJ5T_kWZLgkfTqwp"
+    },
+    {
+      "id": "JVCbCovou7eoQmyBi4-9Z",
+      "slug": "Casters",
+      "title": "Casters",
+      "fields": [
+        {
+          "id": "GRteIdC3rNHtG7g_7JpmB",
+          "type": "ShortText",
+          "title": "Model"
+        },
+        {
+          "id": "DqxTR1TcnX2bEBPv9Tcji",
+          "type": "ShortText",
+          "title": "Brand"
+        },
+        {
+          "id": "j3v0itloLqSjpmh6zyrL0",
+          "type": "Number",
+          "title": "Quantity"
+        },
+        {
+          "id": "5S7N6XXbF7kPHQ8FHrjXV",
+          "type": "LongText",
+          "title": "Description"
+        }
+      ],
+      "fieldTitleId": "GRteIdC3rNHtG7g_7JpmB"
+    },
+    {
+      "id": "dVg3srj60Gnciae7yChXY",
+      "slug": "Spray-Painter",
+      "title": "Spray Painter",
+      "fields": [
+        {
+          "id": "UZz4VB69-SbdQ4zfRjKFB",
+          "type": "ShortText",
+          "title": "Model"
+        },
+        {
+          "id": "N95t9dygpEe5H0QRwnfN7",
+          "type": "ShortText",
+          "title": "Brand"
+        },
+        {
+          "id": "1fuxnksUQq4qvyWA09REl",
+          "type": "ShortText",
+          "title": "Dimension"
+        },
+        {
+          "id": "KdrifvkOyv1SjEPrnZvI-",
+          "type": "Number",
+          "title": "Weight (KG)"
+        },
+        {
+          "id": "bEmMDa1tTDtJufJzv2t5v",
+          "type": "LongText",
+          "title": "Description"
+        }
+      ],
+      "fieldTitleId": "UZz4VB69-SbdQ4zfRjKFB"
+    }
+  ],
+  "inventoryItems": [
+    {
+      "id": "NxSJ3B8lpWG6HIglY2I__",
+      "categoryId": "aJL8R8sAFFcBCWz5xNja-",
+      "data": [
+        {
+          "categoryFieldId": "DVOkI5MHGbqEbl4-sA79I",
+          "value": "Jumbo Max 2298H"
+        }
+      ]
+    },
+    {
+      "id": "g4Ii0Kf7RzJ9xIIHQ3sDL",
+      "categoryId": "jlEZiXgElbSvhv53j02X_",
+      "data": [
+        {
+          "categoryFieldId": "4cORZO2OMCT3cBXSMibKN",
+          "value": "New Holland  3630 TX"
+        },
+        {
+          "categoryFieldId": "GMZjrMr0UUEQcvw0Wpy3B",
+          "value": "New Holland"
+        },
+        {
+          "categoryFieldId": "UG7hr3s7w0sQJX6tP5kfl",
+          "value": "3"
+        },
+        {
+          "categoryFieldId": "N9OdVpL2Vt25pDpNppmXI",
+          "value": "Partial Synchro Mesh"
+        },
+        {
+          "categoryFieldId": "h7kgw9lbxBKS1brWutYSh",
+          "value": "12 Forward + 3 Reverse"
+        },
+        {
+          "categoryFieldId": "59kWeuw7rVwr9qs9L_Ik_",
+          "value": "2000"
+        },
+        {
+          "categoryFieldId": "7-cyH9zvgXci4uHngnnt9",
+          "value": "60"
+        },
+        {
+          "categoryFieldId": "Jj9RxstFGUYNkZnix9xF-",
+          "value": "88 Ah"
+        },
+        {
+          "categoryFieldId": "OIfsqd1gypwrd2AaXSbD1",
+          "value": "Sensomatic24 with 24 sensing points; Lift-O-Matic with Height Limiter; DRC valve & Isolator valve"
+        },
+        {
+          "categoryFieldId": "hSlKdHn6GycWwG51O-oCh",
+          "value": "New holland tractors are a wide range of tractors having great efficiency and outstanding effectivity in performance.New holland 3630 TX Special edition tractor engine efficiency of this tractor is 55 HP and PTO HP is NA. The tractor has 12 Forward + 3 Reverse gears and oil-immersed brakes. The fuel tank capacity of the tractor is 60 L litres which keeps it long-lasting and durable in performance. The number of cylinders attached with the tractor is 3 having the outstanding ability and maximum efficiency to offer. The price of New holland 3630 TX Special edition 2022 is worth NA *.\n\nNew holland 3630 TX Special edition tractor in India 2022 is the best known and much recognized in the space of having qualified and sound tractors. New holland 3630 TX Special edition is the super classy tractor having an attractive design and unique structure. New holland tractor in India 2021 has already taken upon the share in farmers' purchase. \n\nIt has excellent features, quality, and fair price for the tractors keeping them intact and best in use for the farmers and for all kinds of use. The tractor catches everybody’s attention and preference. The company always provides the tractor according to the choice, features, quality and the best price of it making it suitable and easily fit in everybody’s budget."
+        }
+      ]
+    },
+    {
+      "id": "WFlRhlZvApXHMHP5WqlNZ",
+      "categoryId": "jlEZiXgElbSvhv53j02X_",
+      "data": [
+        {
+          "categoryFieldId": "GMZjrMr0UUEQcvw0Wpy3B",
+          "value": "Swaraj"
+        },
+        {
+          "categoryFieldId": "4cORZO2OMCT3cBXSMibKN",
+          "value": "Swaraj 855 FE"
+        },
+        {
+          "categoryFieldId": "UG7hr3s7w0sQJX6tP5kfl",
+          "value": "3"
+        },
+        {
+          "categoryFieldId": "N9OdVpL2Vt25pDpNppmXI",
+          "value": "Single Dry Disc Friction Plate/Dual Clutch"
+        },
+        {
+          "categoryFieldId": "h7kgw9lbxBKS1brWutYSh",
+          "value": "8 Forward + 2 Reverse"
+        },
+        {
+          "categoryFieldId": "59kWeuw7rVwr9qs9L_Ik_",
+          "value": "1500"
+        },
+        {
+          "categoryFieldId": "7-cyH9zvgXci4uHngnnt9",
+          "value": "60"
+        },
+        {
+          "categoryFieldId": "Jj9RxstFGUYNkZnix9xF-",
+          "value": "12 Volt 99A"
+        },
+        {
+          "categoryFieldId": "OIfsqd1gypwrd2AaXSbD1",
+          "value": "Dry Disc Type/Oil Immersed Brakes"
+        },
+        {
+          "categoryFieldId": "hSlKdHn6GycWwG51O-oCh",
+          "value": "The swaraj 855 FE is a super amazing tractor that comes with mind-blowing features and specifications which makes it stands out from the crowd of the rest of the swaraj tractors and other tractors as well.\n\nThe swaraj 855 FE is mainly manufactured for meeting the needs and requirements of the farmers across. The Swaraj 855 FE is a 52 HP tractor with 3 cylinders and a water-cooled type engine for providing smoothness and firmness.\n\nThis tractor is built for difficult field operations and hard soil operations and is an iconic tractor that delivers pure power. It has several features, including a direction control valve, a multi-speed forward and backward PTO, power steering, and a dual-clutch.\n\nThe Swaraj 855 FE price is around Rs. 7. 20 lakhs to 7. 50 lakhs respectively."
+        }
+      ]
+    },
+    {
+      "id": "_dSewbJRQIYxubxmggNFj",
+      "categoryId": "JmYN6gI75af4-DqtcaVma",
+      "data": [
+        {
+          "categoryFieldId": "SJwMUdfWJT9WEfAlCyGy0",
+          "value": ""
+        },
+        {
+          "categoryFieldId": "IMP00e5c0N2EGwEe_hbm_",
+          "value": "CAT D4"
+        },
+        {
+          "categoryFieldId": "3aXAYAvhiL0tlNIbv0kXt",
+          "value": "97"
+        },
+        {
+          "categoryFieldId": "GSEIpTjsxJb2UUX2Lo0Ip",
+          "value": "13500"
+        },
+        {
+          "categoryFieldId": "qR1ELsZwsh6_f-veWHRFJ",
+          "value": "Hydrostatic"
+        },
+        {
+          "categoryFieldId": "4jpR_rT4aSsfCHjlWZO93",
+          "value": "260"
+        },
+        {
+          "categoryFieldId": "gfFFvsNX587aImSH6296u",
+          "value": "Brazil MAR-1 and China Nonroad Stage III, equivalent to U.S. EPA Tier 3/EU Stage IIIA"
+        },
+        {
+          "categoryFieldId": "YVXac-qXd8H1zxhlaJ1WT",
+          "value": "The Cat® D4 dozer combines excellent fuel efficiency with the power and precision to excel in a wide range of jobs. A balanced design and available technologies like Cat Grade with Slope Assist™ and Cat Grade with 3D make it the ideal finish grading tractor.\nNet power available at the flywheel when the engine is equipped with fan, air cleaner, and alternator with engine speed at 2,200 rpm. Advertised power is tested per the specified standard in effect at the time of manufacture."
+        }
+      ]
+    },
+    {
+      "id": "trbWhIPHWMvm-wanOwV27",
+      "categoryId": "JmYN6gI75af4-DqtcaVma",
+      "data": [
+        {
+          "categoryFieldId": "SJwMUdfWJT9WEfAlCyGy0",
+          "value": ""
+        },
+        {
+          "categoryFieldId": "IMP00e5c0N2EGwEe_hbm_",
+          "value": "LargDoz D11 / D11 CD"
+        },
+        {
+          "categoryFieldId": "3aXAYAvhiL0tlNIbv0kXt",
+          "value": "634"
+        },
+        {
+          "categoryFieldId": "GSEIpTjsxJb2UUX2Lo0Ip",
+          "value": "104236"
+        },
+        {
+          "categoryFieldId": "qR1ELsZwsh6_f-veWHRFJ",
+          "value": "454 L"
+        },
+        {
+          "categoryFieldId": "4jpR_rT4aSsfCHjlWZO93",
+          "value": "1220"
+        },
+        {
+          "categoryFieldId": "YVXac-qXd8H1zxhlaJ1WT",
+          "value": "The new Cat® D11 Dozer delivers higher productivity at lower cost. The latest technology provides operator with full command of the dozer for safe and efficient operation. This means you can comfortably move more material in less time, at a lower cost per ton, for a faster payback on your investment. This intelligent dozer has a sophisticated machine protection strategy, as well as a machine guidance system which further drives higher productivity and lower cost.\nThe air conditioning system on this machine contains the flourinated greenhouse gas refrigerant R134a (Global Warning Potential = 1430). The system contains 2.1 kg (4.6 lb) of refrigerant which has a CO2 equivalent of 3.003 metric tonnes (3.31 tons)"
+        },
+        {
+          "categoryFieldId": "gfFFvsNX587aImSH6296u",
+          "value": "Engine ratings apply at 1,800 rpm. Rollover Protective Structure (ROPS) meets the following criteria: ISO 3471:2008."
+        }
+      ]
+    },
+    {
+      "id": "R4tKBeS35OqGXKnHRy_p_",
+      "categoryId": "UEBPe7IBOJYFMaGw2Sorg",
+      "data": [
+        {
+          "categoryFieldId": "d8mWUP4rkls-QejfI1B_E",
+          "value": "Black & Decker"
+        },
+        {
+          "categoryFieldId": "1bKGtDL3JojmH_Zg4H91m",
+          "value": "BD 6.5/4LW/VSR"
+        },
+        {
+          "categoryFieldId": "oTCiX_CwK_CBBGc442gqd",
+          "value": "2800"
+        },
+        {
+          "categoryFieldId": "QsKk9KXjnP4e4iUbQ_CF2",
+          "value": "220 x 60 x 230 mm"
+        },
+        {
+          "categoryFieldId": "y6ceoFRcAVftvAcuNmMAl",
+          "value": "Orange / Black / Green / Purple"
+        },
+        {
+          "categoryFieldId": "XTmGDp4tRuU6g7gD9KpZp",
+          "value": "240"
+        },
+        {
+          "categoryFieldId": "nkLX0Gc-mFnE6DBc0E5v4",
+          "value": "1.25"
+        },
+        {
+          "categoryFieldId": "XNCH7nc-K7AQxe6WRFShm",
+          "value": "BD65RD is low on power consumption and easy maintenance, with no compromise in performance. It has a 400-watt motor with a 6.5mm chuck. It has forward and reverse function. It's lightweight and ergonomic design makes it easy to use for a long period of time. This Black and Decker 6.5 mm rotary drill has an ergonomic design and comes with variable speed and also has reversible option. This rotary drill has a stronger grip. It comes with 6 months of manufacturing warranty."
+        }
+      ]
+    },
+    {
+      "id": "CNHLpFHVYQ4ztSQVeSNtB",
+      "categoryId": "UEBPe7IBOJYFMaGw2Sorg",
+      "data": [
+        {
+          "categoryFieldId": "1bKGtDL3JojmH_Zg4H91m",
+          "value": "TigElec TGP 1008"
+        },
+        {
+          "categoryFieldId": "d8mWUP4rkls-QejfI1B_E",
+          "value": "Tiger"
+        },
+        {
+          "categoryFieldId": "oTCiX_CwK_CBBGc442gqd",
+          "value": "2600"
+        },
+        {
+          "categoryFieldId": "XNCH7nc-K7AQxe6WRFShm",
+          "value": "This drill machine made by Tiger Electric is a powerful tool that can be used to drill holes on various surfaces. This rotary drill is ideal for electricians, plumbers, carpenters, home use, and construction workers. It comes with a 10mm drilling capacity, 6 mm drilling capacity in steel, and 13 mm drilling capacity in wood. With a 26000 rpm rotation speed, this product is very useful and easy to use. It uses about 24 V AC/DC voltage input and 50 Hz frequency. This power tool weighs around 1.38 kg. The overall length of the product is 23.8 cm, the width is 6.5 cm, and the height is 19.8 cm."
+        },
+        {
+          "categoryFieldId": "nkLX0Gc-mFnE6DBc0E5v4",
+          "value": "1.44"
+        },
+        {
+          "categoryFieldId": "XTmGDp4tRuU6g7gD9KpZp",
+          "value": "220-240"
+        },
+        {
+          "categoryFieldId": "y6ceoFRcAVftvAcuNmMAl",
+          "value": "Black / Green / Blue"
+        },
+        {
+          "categoryFieldId": "QsKk9KXjnP4e4iUbQ_CF2",
+          "value": "230 X 45 X 68 mm"
+        }
+      ]
+    }
+  ]
+}

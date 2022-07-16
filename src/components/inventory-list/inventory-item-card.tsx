@@ -29,7 +29,7 @@ const InventoryItemCard: React.FC<{
           {category.title}
         </Descriptions.Item>
       )}
-      {category.fields.map((categoryField) => {
+      {category.fields.filter((it) => it.type !== 'LongText').map((categoryField) => {
         const data = inventoryItem.data.find((itemData) => itemData.categoryFieldId === categoryField.id);
 
         if (!data) {
@@ -58,6 +58,34 @@ const InventoryItemCard: React.FC<{
             span={categoryField.type === 'LongText' ? 2 : 1}
           >
             {(value ?? '').length > 0 ? value : 'Not available'}
+          </Descriptions.Item>
+        );
+      })}
+    </Descriptions>
+    <Descriptions
+      layout="vertical"
+      size="small"
+      colon={false}
+      column={{ xl: 1, lg: 1, md: 1, sm: 1, xs: 1 }}
+    >
+      {category.fields.filter((it) => it.type === 'LongText').map((categoryField) => {
+        const data = inventoryItem.data.find((itemData) => itemData.categoryFieldId === categoryField.id);
+
+        if (!data) {
+          return null;
+        }
+
+        return (
+          <Descriptions.Item
+            key={categoryField.id}
+            label={(
+              <Typography.Text type="secondary">
+                {categoryField.title}
+              </Typography.Text>
+            )}
+            span={categoryField.type === 'LongText' ? 2 : 1}
+          >
+            {(data.value ?? '').length > 0 ? data.value : 'Not available'}
           </Descriptions.Item>
         );
       })}

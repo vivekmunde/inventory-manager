@@ -1,13 +1,16 @@
 import { createStore } from 'redux';
+
+// import data from '../db/data.json';
 import reducer from './reducer';
 import { TState } from './types';
 
 const PERSISTENT_STATE = 'PERSISTENT_STATE';
 
 export function getDefaultState(): TState {
+  // return data as TState;
   return {
     categories: [],
-    inventoryItems:[],
+    inventoryItems: [],
   };
 }
 

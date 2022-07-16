@@ -1,10 +1,15 @@
 import { Button, Dropdown, Menu } from 'antd';
+import orderBy from 'lodash/orderBy';
 import React from 'react';
 import { useHistory, useRouteMatch } from 'react-router-dom';
 
 import { DownOutlined, PlusOutlined } from '@ant-design/icons';
 
 import { TCategory } from '../../types';
+
+const sortCategories = (list: TCategory[]) => (
+  orderBy(list, [(it) => it.title?.toLowerCase()], ['asc'])
+);
 
 const AddInventoryItemButton: React.FC<{ categories: TCategory[] }> = ({ categories }) => {
   const history = useHistory();
@@ -19,7 +24,7 @@ const AddInventoryItemButton: React.FC<{ categories: TCategory[] }> = ({ categor
       trigger={['click']}
       overlay={(
         <Menu
-          items={categories.map((it) => ({ key: it.id, label: it.title }))}
+          items={sortCategories(categories).map((it) => ({ key: it.id, label: it.title }))}
           onClick={(value) => {
             onAdd(value.key);
           }}
