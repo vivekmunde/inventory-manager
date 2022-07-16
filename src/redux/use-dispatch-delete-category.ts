@@ -12,7 +12,7 @@ const useDispatchDeleteCategory = () => {
     return dispatch(action({
       ...state,
       categories: state.categories.filter((it) => it.id !== categoryId),
-      inventoryItems: state.inventoryItems.filter((it) => it.categoryId === categoryId),
+      inventoryItems: state.inventoryItems.filter((it) => it.categoryId !== categoryId),
     }));
   };
 };
