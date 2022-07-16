@@ -1,6 +1,6 @@
 {
   "name": "inventory-manager",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "private": true,
   "homepage": " https://vivekmunde.github.io/inventory-manager",
   "dependencies": {
